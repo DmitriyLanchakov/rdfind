@@ -83,9 +83,9 @@ void usage()
   //..<<"..............................80 chars output......................................................."
   cout<<endl<<"usage:"<<endl;
   cout<<"rdfind [options] directory1 directory2 ..."<<endl;
-  cout<<endl<<" Finds duplicate files in directories, and takes appropriate actions"<<endl;
-  cout<<"Directories listed first are ranked higher, meaning that if a"<<endl;
-  cout<<"file is found on several places, the file found in the directory first"<<endl;
+  cout<<endl<<" Finds duplicate files in directories, and takes appropriate actions."<<endl;
+  cout<<" Directories listed first are ranked higher, meaning that if a"<<endl;
+  cout<<" file is found on several places, the file found in the directory first"<<endl;
   cout<<" encountered on the command line is kept, and the others are considered duplicate."<<endl;
   cout<<" options are (default choice within parantheses) "<<endl<<endl;
   cout<<" -makesymlinks      true |(false) replace duplicate files with symbolic links"<<endl;
